@@ -8,7 +8,7 @@ import edu.handong.csee.java.hw2.converters.*; // You will learn the import stat
  * This is Intergrated Converter program.
  * There is 5 converter classes that implements convertivle interface, and one AllConverter class.
  */
-public class IntegratedConverter {
+public class IntegratedConverter{
 
     private double fromValue;
     /**
@@ -23,7 +23,7 @@ public class IntegratedConverter {
 
     }
 
-    private void run(String[] args) {
+    private void run(String[] args){
 
         fromValue = Double.parseDouble(args[0]);
         String originalMeasure = Util.getUppercaseString(args[1]);
