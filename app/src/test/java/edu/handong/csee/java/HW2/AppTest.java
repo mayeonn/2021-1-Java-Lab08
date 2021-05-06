@@ -4,6 +4,9 @@
 package edu.handong.csee.java.HW2;
 
 import org.junit.Test;
+
+import edu.handong.csee.java.App;
+
 import static org.junit.Assert.*;
 
 public class AppTest {
